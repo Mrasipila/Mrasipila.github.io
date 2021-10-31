@@ -315,3 +315,168 @@ h3 {
     font-size: 0.75em;
     font-style: italic;
 }
+
+
+/* responsive part for screens width between 800px and 1920px*/
+
+@media all and (max-width: 1920px) and (min-width:800px){
+
+    /* ##################### SECTION 1 ########################## */
+
+    h4:not(#h4-t1,#h4-t2) {
+        font-weight: bold;
+        color: white;
+        font-family: "Gill Sans", sans-serif;
+        margin-top: 5.5em;
+        margin-bottom: 5em;
+        margin-right: 20em;
+        float:left;
+    }
+
+    #h4-t1 {
+        font-weight: bold;
+        color: white;
+        font-family: "Gill Sans", sans-serif;
+        margin-top: 4.5em;
+        margin-bottom: 5em;
+        margin-left: 0.7em;
+        margin-right: 20em;
+        float:left;
+    }
+
+    .icon-t2 {
+        margin-left:3em;
+        margin-top: 2em;
+        margin-right: 1em;
+        width: 21%;
+        height: 33%;
+        float:left; 
+    }
+
+    /* ##################### SECTION 2 BOX 1 #################### */
+
+    .icon-1-s2 {
+        margin-left:3em;
+        margin-top: 2em;
+        margin-right: 1em;
+        width: 10.2vw;
+        height: 18.1vh;
+        float:left; 
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    /* text and title position and settings of the box */
+    #sub-1-s2-title {
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top : 6.2vh;
+        left: 7.55vw;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Noto Sans, sans-serif;
+        font-size: 0.85em;
+    }
+
+    #sub-1-s2-text {
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top : 13.2vh;
+        left: 7.55vw;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Noto Sans, sans-serif;
+        font-size: 0.75em;
+        font-style: italic;
+    }
+    /* ##################### SECTION 2 BOX 2 #################### */
+    .icon-2-s2 {
+        margin-left:3em;
+        margin-top: 2em;
+        margin-right: 1em;
+        width: 10.2vw;
+        height: 18.1vh;
+        float:left; 
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    /* text and title position and settings of the box */
+    #sub-1-s2-title-2 {
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top : 6.2vh;
+        left: 21vw;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Noto Sans, sans-serif;
+        font-size: 0.85em;
+    }
+
+    #sub-1-s2-text-2 {
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top : 13.2vh;
+        left: 21vw;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Noto Sans, sans-serif;
+        font-size: 0.75em;
+        font-style: italic;
+    }
+    /* ##################### SECTION 2 BOX 3 #################### */
+    .icon-3-s2 {
+        margin-left:3em;
+        margin-top: 2em;
+        margin-right: 1em;
+        width: 10.2vw;
+        height: 18.1vh;
+        float:left; 
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    /* text and title position and settings of the box */
+    #sub-1-s2-title-3 {
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top : 6.2vh;
+        left: 34.6vw;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Noto Sans, sans-serif;
+        font-size: 0.85em;
+    }
+
+    #sub-1-s2-text-3 {
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top : 13.2vh;
+        left: 34.6vw;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Noto Sans, sans-serif;
+        font-size: 0.75em;
+        font-style: italic;
+    }
+}

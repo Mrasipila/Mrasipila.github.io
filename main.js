@@ -15,6 +15,9 @@ const renderer = new THREE.WebGLRenderer({
 if (window.innerWidth <= 800) {
     renderer.setSize( window.innerWidth/1.5, window.innerHeight/1.5);
     camera.position.setZ(30);
+} else if (window.innerWidth <= 1440) {
+    renderer.setSize( window.innerWidth/1.1, window.innerHeight/1.2);
+    camera.position.setZ(25);
 } else {
     renderer.setSize( window.innerWidth/3, window.innerHeight/3 );
     camera.position.setZ(20);
